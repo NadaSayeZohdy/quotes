@@ -1,0 +1,51 @@
+body {
+    background-color: #1260af54;
+    font-family: Arial, sans-serif;
+    height: 100%;
+    background-image: url(image/notepad-1130743_1280.jpg);
+    width: 100%;
+}
+.container{
+    background-color: rgba(20, 20, 20, 0.356);
+    margin-top: 100px;
+}
+h2{
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.quote-text {
+    font-size: 24px;
+    font-style: italic;
+    color: #333;
+}
+
+.quote-author {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.btn-new-quote {
+    margin-top: 20px;
+    background-color:blue;
+    color: #fff;
+    border: none;
+    width: 250px;
+    height: 75px;
+    border-radius: 0;
+    border-top: 1.5 solid #413f3f;
+    border-right: 1.5px solid #000;
+    border-left: 1.5px solid #4b4a4a;
+    border-bottom: 1.5px solid #333333;
+
+}
+
+.btn-new-quote:hover {
+    background-color: green;
+    border-radius: 0;
+    border-top: 3px solid #413f3f;
+    border-right: 3px solid #000;
+    border-left: 3px solid #4b4a4a;
+    border-bottom: 3px solid #333333;
+}
